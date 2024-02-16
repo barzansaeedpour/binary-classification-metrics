@@ -50,7 +50,7 @@ A json file (kaggle.json) will be downloaded automatically. Upload it in colab/f
   
   - **F1-score**: A harmonic mean of precision and recall.
     
-    $F_1$ = $\frac{2*Precisicion*Recall}{Precision + Recall}$
+    $F1$ = $\frac{2*Precisicion*Recall}{Precision + Recall}$
 
 
  Confusion matrix is a powerful tool for understanding how well your model is performing!
