@@ -33,10 +33,10 @@ A json file (kaggle.json) will be downloaded automatically. Upload it in colab/f
 
 <img src="./files/confusion-matrix.PNG" width="70%"/>
 
-<img src="./files/confusion-matrix2.PNG" width="70%"/>
+Using confusion matrix we can calculate the following performance metrics.
 
-- Using confusion matrix we can calculate the following performance metrics:
-  
+Most Common Metrics:
+
   - **Accuracy**: The ratio of total correct instances to the total instances.
  
     $Accuracy$ =  $\frac{TP + TN}{TP + TN + FP + FN}$
@@ -51,5 +51,24 @@ A json file (kaggle.json) will be downloaded automatically. Upload it in colab/f
   - **F1-score**: A harmonic mean of precision and recall.
     
     $F1$ = $\frac{2 \times Precisicion \times Recall}{TP + FN}$
+
+Less Common Metrics:
+
+    
+  - $Specificity$ = $True$ $Negative$ $Rate$ = $\frac{TN}{TN + FP}$
+
+  - $False$ $Negative$ $Rate$ = $\frac{FN}{TP + FN}$
+
+  - $False$ $Positive$ $Rate$ = $\frac{FP}{TN + FP}$
+
+
+  - $Negative$ $Predictive$ $Value$ = $\frac{TN}{TN + FN}$
+
+
+  - $Balanced$ $Accuracy$ = $\frac{(TPR + TNR)}{2}$
+
+
+  - $Matthews$ $Correlation$ $Coefficient$ = $\frac{(TP * TN) - (FP * FN)}{\sqrt{(TP + FP) * (TP + FN) * (TN + FP) * (TN + FN)}}$
+
 
  Confusion matrix is a powerful tool for understanding how well your model is performing!
