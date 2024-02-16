@@ -1,7 +1,6 @@
 # binary-classification-metrics
 
 
-
 In this repository we build a binary classification model using Logestic Regression, and use different binary classification metrics to have a better understanding of them.
 
 ## How to use
@@ -32,12 +31,24 @@ A json file (kaggle.json) will be downloaded automatically. Upload it in colab/f
   - **False Positives (FP)**: These occur when the model predicts a **positive** data point incorrectly.
   - **False Negatives (FN)**: These occur when the model mispredicts a **negative** data point.
 
+<img src="./files/confusion-matrix.PNG" width="70%"/>
+
 <img src="./files/confusion-matrix2.PNG" width="70%"/>
 
-- The confusion matrix helps us calculate various performance metrics like:
+- Using confusion matrix we can calculate the following performance metrics:
+  
   - **Accuracy**: The ratio of total correct instances to the total instances.
+ 
+    $Accuracy$ =  $\frac{TP + TN}{TP + TN + FP + FN}$
   - **Precision**: The proportion of true positive predictions among all positive predictions.
+  
+    $Precision$ = $Positive$ $Predictive$ $Value$ = $\frac{TP}{TP + FP}$
+  
   - **Recall (Sensitivity)**: The proportion of true positive predictions among all actual positive instances.
+  
+    $Recall$ = $Sensitivity$ = $True$ $Positive$ $Rate$ = $\frac{TP}{TP + FN}$
+  
   - **F1-score**: A harmonic mean of precision and recall.
  
+    $F_1$ = $\frac{2*Precisicion*Recall}{Precision + Recall}$
 
