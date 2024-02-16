@@ -52,6 +52,6 @@ A json file (kaggle.json) will be downloaded automatically. Upload it in colab/f
     
     $F1$ = $\frac{2*Precisicion*Recall}{Precision + Recall}$
     
-    $F1$ = $\frac{TP}{TP + FN}$
+    $F1$ = $\frac{2*Precisicion*Recall}{TP + FN}$
 
  Confusion matrix is a powerful tool for understanding how well your model is performing!
