@@ -1,4 +1,4 @@
-# binary-classification-metrics
+# Binary-classification-metrics
 
 
 In this repository we build a binary classification model using Logestic Regression, and use different binary classification metrics to have a better understanding of them.
